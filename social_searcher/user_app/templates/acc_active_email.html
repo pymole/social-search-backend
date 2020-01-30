@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Подтверждение регистрации</title>
+  </head>
+  <body>
+    <table
+      width = '100%'
+      border = '0'
+      cellspasing = '0'
+      cellpadding = '0'
+    >
+      <tbody>
+        <tr>
+          <td
+            align = 'center'
+            valign = 'top'
+            bgcolor = '#2B3648'
+          >
+            <table
+              width = '600'
+              border = '0'
+              cellspasing = '0'
+              cellpadding = '0'
+            >
+              <tbody>
+                <tr>
+                  <td
+                    align = 'center'
+                    valign = 'top'
+                    bgcolor = '#313C4E'
+                    style = 'padding-left: 15px; padding-right: 15px; background-color: #313C4E;'
+                  >
+                    <table
+                      width = '100%'
+                      border = '0'
+                      cellspasing = '0'
+                      cellpadding = '0'
+                    >
+                      <tbody>
+                        <tr>
+                          <td>
+                            <table
+                              width = '100%'
+                              border = '0'
+                              cellspasing = '0'
+                              cellpadding = '0'
+                            >
+                              <tbody>
+                                <tr>
+                                  <td
+                                    align = 'center'
+                                    valign = 'middle'
+                                  >
+                                    <b
+                                      style = 'font-family: Arial, Helvetica, sans-serif; color: #AFBDD1'
+                                    >
+                                      Привет, {{ user }}!
+                                    </b>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <tr>
+                            <td>
+                              <table
+                                width = '100%'
+                                border = '0'
+                                cellpadding = '0'
+                                cellspasing = '0'
+                              >
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <p
+                                        align = 'center'
+                                      >
+                                        <a
+                                          href= '{{ domain }}/confirm_email/{{ uid }}/{{ token }}'
+                                          style = '
+                                            display: block;
+                                            max-width: 30%;
+
+                                            padding: 10px 25px;
+
+                                            background-color: #1976D2;
+                                            border-radius: 25px;
+                                            border: 1px solid #313C4E;
+                                            color: #AFBDD1;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            text-decoration: none;
+                                            text-align: center;
+
+                                          '
+                                        >
+                                          Подтвердите ваш адрес электронной почты
+                                        </a>
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <table
+                                width = '100%'
+                                border= '0'
+                                cellpadding = '0'
+                                cellspasing = '0'
+                              >
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <p
+                                        style = 'font-family: Arial, Helvetica, sans-serif; color: #AFBDD1'
+                                      >
+                                        Если вы не создавали аккаунт в social-searcher, просто проигнорируйте это письмо.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
